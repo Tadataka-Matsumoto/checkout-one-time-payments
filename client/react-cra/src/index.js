@@ -1,30 +1,37 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Checkout from './components/Checkout';
-import Success from './components/Success';
-import Canceled from './components/Canceled';
+// import Checkout from './components/Checkout';
+// import Success from './components/Success';
+// import Canceled from './components/Canceled';
 
-import './css/normalize.css';
-import './css/global.css';
+// import './css/normalize.css';
+// import './css/global.css';
 
-function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route path="/success.html">
-          <Success />
-        </Route>
-        <Route path="/canceled.html">
-          <Canceled />
-        </Route>
-        <Route path="/">
-          <Checkout />
-        </Route>
-      </Switch>
-    </Router>
-  );
-}
+// function App() {
+//   return (
+//     <Router>
+//       <Switch>
+//         <Route path="/success.html">
+//           <Success />
+//         </Route>
+//         <Route path="/canceled.html">
+//           <Canceled />
+//         </Route>
+//         <Route path="/">
+//           <Checkout />
+//         </Route>
+//       </Switch>
+//     </Router>
+//   );
+// }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<App />, document.getElementById('root'));
+
+
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+
+ReactDOM.render(<App />, document.getElementById("root"));

@@ -10,7 +10,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "stripe": "^8.97.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "http://localhost:3000/checkout",
   "proxy": "http://localhost:4242",
   "eslintConfig": {
     "extends": "react-app"

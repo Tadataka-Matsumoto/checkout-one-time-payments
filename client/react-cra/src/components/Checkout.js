@@ -14,9 +14,9 @@ const fetchCheckoutSession = async ({ quantity }) => {
 };
 
 const formatPrice = ({ amount, currency, quantity }) => {
-  const numberFormat = new Intl.NumberFormat('en-US', {
+  const numberFormat = new Intl.NumberFormat('ja-JP', {
     style: 'currency',
-    currency,
+    currency: 'JPY',
     currencyDisplay: 'symbol',
   });
   const parts = numberFormat.formatToParts(amount);
